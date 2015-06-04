@@ -1,3 +1,3 @@
 (function(){
-    angular.module('bookmarkList',['$routeParams']);
+    angular.module('bookmarkList',['createForm','ngRoute']);
 })();

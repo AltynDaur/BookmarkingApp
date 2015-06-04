@@ -4,11 +4,11 @@
     function appConfig($routeProvider){
         $routeProvider.
             when('/', {
-                templateUrl: '/bookmarkList/bookmarkListTemplate.html',
+                templateUrl: '/BookmarkingApp/bookmarkList/bookmarkListTemplate.html',
                 controller: 'bookmarkListController'
             }).
             when('/:filter', {
-                templateUrl: '/bookmarkList/bookmarkListTemplate.html',
+                templateUrl: '/BookmarkingApp/bookmarkList/bookmarkListTemplate.html',
                 controller: 'bookmarkListController'
             }).
             otherwise({

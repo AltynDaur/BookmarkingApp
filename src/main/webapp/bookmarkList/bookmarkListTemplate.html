@@ -1,0 +1,14 @@
+<h1>Bookmarking App</h1>
+<create-form></create-form>
+<div>
+    <h2></h2>
+    <table class="table">
+        <tr ng-repeat="bookmark in bookmarks | filter:filterString">
+            <td><button class="btn btn-warning" ng-click="editBookmark()">Edit</button></td>
+            <td><button class="btn btn-danger" ng-click="deleteBookmark()">Edit</button></td>
+            <td>{{bookmark.title}}</td>
+            <td>{{bookmark.url}}</td>
+            <td>{{bookmark.tagsString}}</td>
+        </tr>
+    </table>
+</div>
